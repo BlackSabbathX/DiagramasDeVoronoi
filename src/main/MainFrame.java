@@ -48,6 +48,7 @@ public class MainFrame extends javax.swing.JFrame {
         toPng = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setResizable(false);
 
         drawCanvas.setForeground(new java.awt.Color(204, 204, 255));
         drawCanvas.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -107,6 +108,7 @@ public class MainFrame extends javax.swing.JFrame {
         );
 
         pack();
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     private void drawCanvasMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_drawCanvasMouseClicked
